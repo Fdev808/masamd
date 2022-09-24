@@ -562,7 +562,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                naze.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/naze_\n\n*Atau Transfer via*\n- *Gopay Dana Ovo Qris ShopeePay*\n Ke nomer berikut : 082113821188\n\n_Terima kasih bagi yang sudah donasi_` }, { quoted: m })
+                naze.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/d22e5f4456163199bd34c.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan hubungu nomer di bawah*\n\n*Atau klik link dibawah ini*\n_wa.me/6283811034750_\n\n*Atau Transfer via*\n- *Gopay Dana Ovo Qris ShopeePay*\n Ke nomer berikut : 083168004413\n\n_Terima kasih bagi yang sudah donasi_` }, { quoted: m })
             }
             break
             case 'tes': {
@@ -3459,7 +3459,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │✎ ${prefix}setmenu [option]
 │
 └───────▣
-_Donasi Ngab_\n_Jangan Ngarep Free Mulu_`
+_Ingat ya❗_\n_Jangan spam saat menggunakan bot_`
                 let buttons = [{ buttonId: 'donasi', buttonText: { displayText: '🇯🇵Owner' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '❗Rules' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, anu, nyoutube, m, {mentions: ments})
             }
