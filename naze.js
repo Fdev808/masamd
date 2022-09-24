@@ -1170,7 +1170,7 @@ break
             break
             case 'bcgc': case 'bcgroup': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
+                if (!text) throw `Text mana?\n\nExample : ${prefix + command} shiki-san`
                 let getGroups = await naze.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
@@ -1184,7 +1184,7 @@ break
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
+                if (!text) throw `Text mana?\n\nExample : ${prefix + command} shiki-san`
                 let anu = await store.chats.all().map(v => v.id)
                 m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} detik`)
 		for (let yoi of anu) {
@@ -1425,7 +1425,7 @@ break
             }
             break
         case 'google': {
-                if (!text) throw `Example : ${prefix + command} fatih arridho`
+                if (!text) throw `Example : ${prefix + command}  Shikimori`
                 let google = require('google-it')
                 google({'query': text}).then(res => {
                 let teks = `Google Search From : ${text}\n\n`
@@ -3460,7 +3460,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │
 └───────▣
 _Ingat ya❗_\n_Jangan spam saat menggunakan bot_`
-                let buttons = [{ buttonId: 'donasi', buttonText: { displayText: '🇯🇵Owner' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '❗Rules' }, type: 1 }]
+                let buttons = [{ buttonId: '.owner', buttonText: { displayText: '🇯🇵Owner' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '📝Change List' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, anu, nyoutube, m, {mentions: ments})
             }
             break
