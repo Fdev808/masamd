@@ -3460,7 +3460,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 │
 └───────▣
 _Ingat ya❗_\n_Jangan spam saat menggunakan bot_`
-                let buttons = [{ buttonId: '.owner', buttonText: { displayText: '🇯🇵Owner' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '📝Change List' }, type: 1 }]
+                let buttons = [{ buttonId: '.owner', buttonText: { displayText: '🇯🇵Owner' }, type: 1 },{ buttonId: '.list', buttonText: { displayText: '📝Change List' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, anu, nyoutube, m, {mentions: ments})
             }
             break
